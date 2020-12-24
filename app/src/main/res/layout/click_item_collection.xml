@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".click_item_collection">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="4dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/backbst"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Bộ Sưu Tập"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/muiten"
+            android:textStyle="bold"
+            android:background="#4CAF50"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/tvName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_gravity="center"
+                android:text="Name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#ED0621"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
